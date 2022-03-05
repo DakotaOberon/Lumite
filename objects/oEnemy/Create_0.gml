@@ -22,3 +22,5 @@ image_xscale = scale;
 image_yscale = scale;
 
 death_sprite = sNightMaggotDead;
+
+in_side = false;

@@ -1,4 +1,4 @@
-//game_options = [gm_light, gm_night];
+game_options = [gm_light, gm_night];
 
 //characters = {
 //	gm_light: [ch_light1, ch_light2, ch_light3],

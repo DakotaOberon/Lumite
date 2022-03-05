@@ -31,4 +31,15 @@ if (launch) {
 	global.projectile.create(x, y, launch_dir);
 }
 
-x += (global.player.move_speed * (r - l));
+var xMove = (r - l);
+var can_move = false;
+
+if (xMove > 0) {
+	can_move = bbox_right < room_width;
+} else if (xMove < 0) {
+	can_move = bbox_left > 0;
+}
+
+if (can_move) {
+	x += (global.player.move_speed * xMove);
+}

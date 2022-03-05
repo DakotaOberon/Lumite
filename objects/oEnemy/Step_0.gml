@@ -1,6 +1,7 @@
 // Move here
 if (!place_meeting(x, y - global.attack_dir, oProjectile)) {
-	y -= global.attack_dir;
+	var speed_percent = in_side ? 1 : 0.5;
+	y -= (global.attack_dir * speed_percent);
 }
 
 // Check if enemy has reached the end
