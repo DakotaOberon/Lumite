@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,16 +24,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"e1f9166a-035d-4d42-8c6f-cea9f0991ff8","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"3f6c829a-1d49-45b6-8480-058d061a879e","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"dc40c4f2-1bf9-46ec-b018-ecd6a5bdabe2","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"dc40c4f2-1bf9-46ec-b018-ecd6a5bdabe2","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"e1f9166a-035d-4d42-8c6f-cea9f0991ff8","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"3f6c829a-1d49-45b6-8480-058d061a879e","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"88a107e5-67c8-4da2-85bf-6530d74f9590","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"dc40c4f2-1bf9-46ec-b018-ecd6a5bdabe2","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"e1f9166a-035d-4d42-8c6f-cea9f0991ff8","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"LayerId":{"name":"3f6c829a-1d49-45b6-8480-058d061a879e","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},
@@ -48,8 +48,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"978f27ab-3136-40b3-93e1-d3afab26d87c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8fcdf156-cba8-4654-99fa-e223385b02a8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8fcdf156-cba8-4654-99fa-e223385b02a8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a107e5-67c8-4da2-85bf-6530d74f9590","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"978f27ab-3136-40b3-93e1-d3afab26d87c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"753f57a8-0ca6-49d4-93d9-8f7d7a6d072f","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -62,8 +62,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 32,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},

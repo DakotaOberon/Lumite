@@ -1,9 +1,9 @@
-game_options = [gm_light, gm_night];
+game_options = ["light", "night"];
 
-//characters = {
-//	gm_light: [ch_light1, ch_light2, ch_light3],
-//	gm_night: [ch_night1, ch_night2, ch_night2]
-//}
+characters = {
+	light: [ch_light1, ch_light2, ch_light3],
+	night: [ch_night1, ch_night2, ch_night3]
+};
 
 //frames = [
 //	f_air,
@@ -28,3 +28,10 @@ game_options = [gm_light, gm_night];
 //}
 
 //options = game_options;
+
+/**
+TODO:
+	- Finish character create room
+	- Enemy projectiles
+	- Bramble / Health
+**/

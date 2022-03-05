@@ -1,9 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"sMenuBack","path":"sprites/sMenuBack/sMenuBack.yy",},"order":2,},
     {"id":{"name":"MacroWeapons","path":"scripts/MacroWeapons/MacroWeapons.yy",},"order":1,},
+    {"id":{"name":"draw_rectangle_border","path":"scripts/draw_rectangle_border/draw_rectangle_border.yy",},"order":3,},
+    {"id":{"name":"aStartMusic","path":"sounds/aStartMusic/aStartMusic.yy",},"order":0,},
     {"id":{"name":"clean_collision_list","path":"scripts/clean_collision_list/clean_collision_list.yy",},"order":4,},
+    {"id":{"name":"aMenuSelect","path":"sounds/aMenuSelect/aMenuSelect.yy",},"order":0,},
     {"id":{"name":"rStart","path":"rooms/rStart/rStart.yy",},"order":3,},
-    {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":4,},
+    {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":1,},
     {"id":{"name":"oCollidable","path":"objects/oCollidable/oCollidable.yy",},"order":0,},
     {"id":{"name":"projectile_update_values","path":"scripts/projectile_update_values/projectile_update_values.yy",},"order":1,},
     {"id":{"name":"sProjectileCrossbow","path":"sprites/sProjectileCrossbow/sProjectileCrossbow.yy",},"order":0,},
@@ -32,6 +36,7 @@
     {"id":{"name":"MacroGamemodes","path":"scripts/MacroGamemodes/MacroGamemodes.yy",},"order":3,},
     {"id":{"name":"MacroCharacters","path":"scripts/MacroCharacters/MacroCharacters.yy",},"order":2,},
     {"id":{"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"order":1,},
+    {"id":{"name":"oMusicController","path":"objects/oMusicController/oMusicController.yy",},"order":5,},
     {"id":{"name":"check_in_collision","path":"scripts/check_in_collision/check_in_collision.yy",},"order":2,},
     {"id":{"name":"bounce","path":"scripts/bounce/bounce.yy",},"order":0,},
     {"id":{"name":"sigma","path":"scripts/sigma/sigma.yy",},"order":2,},
@@ -63,8 +68,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
+    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rCharacter","path":"rooms/rCharacter/rCharacter.yy",},},
   ],
   "Folders": [
@@ -97,6 +102,8 @@
     {"folderPath":"folders/Sprites/Shields.yy","order":12,"resourceVersion":"1.0","name":"Shields","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Game.yy","order":13,"resourceVersion":"1.0","name":"Game","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game.yy","order":6,"resourceVersion":"1.0","name":"Game","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Music.yy","order":1,"resourceVersion":"1.0","name":"Music","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Select.yy","order":2,"resourceVersion":"1.0","name":"Select","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
