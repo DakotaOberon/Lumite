@@ -1,2 +1,2 @@
-global.projectile = new Projectile(w_sword, c_lightning, c_energy, true);
+global.projectile = new Projectile(w_sword, c_rock, c_earth, true);
 global.player = new Player();

@@ -13,7 +13,7 @@ var destroy_me = false;
 
 if (global.attack_dir < 0) {
 	y_end += room_height;
-	
+
 	destroy_me = (y_edge > y_end);
 } else {
 	destroy_me = (y_edge < y_end);
@@ -21,5 +21,8 @@ if (global.attack_dir < 0) {
 
 if (destroy_me) {
 	// They've made it passed
+	if (global.curr_per < 100) {
+		global.curr_per += 1;
+	}
 	instance_destroy();
 }

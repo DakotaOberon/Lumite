@@ -1,3 +1,5 @@
+/// @description Spawn in enemy
+
 var y_spawn = 32 * global.attack_dir;
 if (global.attack_dir > 0) {
 	y_spawn += room_height;

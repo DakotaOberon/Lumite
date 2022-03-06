@@ -70,4 +70,7 @@ draw_sprite_ext(sGamemodeSymbol, gm_night, n_icon_x, n_icon_y, n_s, n_s, n_r, c_
 // Start text
 draw_text(start_text_x, start_text_y, start_text);
 
+draw_set_alpha(fade_to_black_alpha);
+draw_rectangle_color(0, 0, room_width, room_height, t_c, t_c, t_c, t_c, 0);
+
 draw_set_alpha(1);

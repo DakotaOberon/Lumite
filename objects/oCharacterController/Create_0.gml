@@ -1,9 +1,19 @@
-game_options = ["light", "night"];
+section = 
 
-characters = {
-	light: [ch_light1, ch_light2, ch_light3],
-	night: [ch_night1, ch_night2, ch_night3]
-};
+characters = [];
+
+switch(global.game_mode) {
+	case(gm_light):
+		array_push(characters, ch_light1);
+		array_push(characters, ch_light2);
+		array_push(characters, ch_light3);
+	break;
+	case (gm_night):
+		array_push(characters, ch_night1);
+		array_push(characters, ch_night2);
+		array_push(characters, ch_night3);
+	break;
+}
 
 //frames = [
 //	f_air,
