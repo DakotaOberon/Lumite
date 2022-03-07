@@ -4,10 +4,12 @@ if (!place_meeting(x, y - global.attack_dir, oProjectile)) {
 	y -= (global.attack_dir * speed_percent);
 }
 
-// Check if enemy has reached the end
-var y_end = 32 * global.attack_dir;
+var spr_h = (bbox_bottom - bbox_top);
 
-var y_edge = y + (global.attack_dir * (bbox_bottom - bbox_top));
+// Check if enemy has reached the end
+var y_end = spr_h * (-global.attack_dir);
+
+var y_edge = y + (global.attack_dir * spr_h);
 
 var destroy_me = false;
 

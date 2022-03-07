@@ -34,7 +34,7 @@ recent_collisions = [];
 alarm[1] = 60;
 alarm[2] = 2;
 
-scale = 1;
+scale = 0.5;
 
 image_xscale = scale;
 image_yscale = scale;

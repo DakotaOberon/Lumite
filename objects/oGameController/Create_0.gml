@@ -22,3 +22,12 @@ game_song = audio_play_sound(music_theme, 100, true);
 // Fade in sound
 audio_sound_gain(game_song, 0.3, 0);
 audio_sound_gain(game_song, 1, 3000);
+
+//var _fx_moving = fx_create("_filter_heathaze");
+//layer_set_fx("Enemy", _fx_moving);
+
+//var _fx_outline = fx_create("_filter_outline");
+//fx_set_parameter(_fx_outline, 
+
+//layer_set_fx("Enemy", _fx_outline);
+//layer_set_fx("Projectile", _fx_outline);

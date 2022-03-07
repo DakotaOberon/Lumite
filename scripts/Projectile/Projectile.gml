@@ -16,7 +16,7 @@ function Projectile(_w=w_wand, _f=f_rock, _a=f_rock, _p=false) constructor {
 
 	base = {
 		size: 1,
-		spd: 3,
+		spd: 6,
 		hp: -1, // -1 for doesn't break
 		damage: 3
 	}
@@ -27,6 +27,8 @@ function Projectile(_w=w_wand, _f=f_rock, _a=f_rock, _p=false) constructor {
 		hp: 1,
 		damage: 1
 	}
+
+	upgrades = { }
 
 	size = base.size * bonus.size;
 	spd = base.spd * bonus.spd;
@@ -60,10 +62,12 @@ function Projectile(_w=w_wand, _f=f_rock, _a=f_rock, _p=false) constructor {
 	add_passive = ProjectileAddPassive;
 	add_on_hit = ProjectileAddOnHit;
 	add_on_kill = ProjectileAddOnKill;
+	add_on_death = ProjectileAddOnDeath;
 
 	change_weapon = ProjectileChangeWeapon;
 	change_frame = ProjectileChangeFrame;
 	change_alt = ProjectileChangeAlt;
+	change_base_hp = ProjectileChangeBaseHP;
 
 	create = ProjectileCreate;
 }
@@ -199,6 +203,12 @@ function ProjectileAddOnKill(effect) {
 	return self;
 }
 
+function ProjectileAddOnDeath(effect) {
+	array_push(self.on_death, effect);
+
+	return self;
+}
+
 function ProjectileChangeWeapon(_w) {
 	self.weapon = _w;
 	return self;
@@ -230,4 +240,8 @@ function ProjectileCreate(_x, _y, _dir=90) {
 	}
 
 	return noone;
+}
+
+function ProjectileChangeBaseHP(new_val) {
+	self.base.hp = new_val;
 }

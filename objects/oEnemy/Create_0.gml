@@ -4,7 +4,7 @@ event_inherited();
 damageable = true;
 
 // Health
-max_hp = 3;
+max_hp = 10;
 hp = max_hp;
 
 // Draw health
@@ -16,7 +16,7 @@ move_speed = 1;
 // Value
 xp_value = 8;
 
-scale = 2;
+scale = 1;
 
 image_xscale = scale;
 image_yscale = scale;
@@ -24,3 +24,10 @@ image_yscale = scale;
 death_sprite = sNightMaggotDead;
 
 in_side = false;
+
+took_damage = false;
+
+damage_draw_alpha = 0;
+damage_draw_alpha_increment = 0.125;
+
+last_hp = hp;
