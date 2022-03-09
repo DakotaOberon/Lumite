@@ -1,0 +1,14 @@
+{
+	"0": {
+		"type": 0,
+		"enemy": "oNightMaggot",
+		"total": 100,
+		"length": 60
+	},
+	"100": {
+		"type": 0,
+		"enemy": "oNightMaggot",
+		"total": 10,
+		"length": 30
+	}
+}

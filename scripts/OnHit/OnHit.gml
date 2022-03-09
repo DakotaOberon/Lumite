@@ -1,7 +1,5 @@
 function OnHitStrike(P, _p=noone, _e=noone) {
-	log("Running Strike On Hit");
 	var in = instance_number(oEnemy);
-	log("There are", in, "enemies");
 	if (in) {
 		nearest = noone;
 		nearest_dis = 10000;
@@ -18,8 +16,6 @@ function OnHitStrike(P, _p=noone, _e=noone) {
 		}
 
 		if (nearest) {
-			//log("P.upgrades:", variable_struct_get_names(P.upgrades));
-			log("Found nearest, dealing", P.bonus.damage, "*", P.upgrades.strike.strike_damage, "damage", nearest);
 			nearest.hp -= (P.bonus.damage * P.upgrades.strike.strike_damage);
 		}
 	}

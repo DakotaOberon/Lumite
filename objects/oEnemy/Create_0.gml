@@ -4,7 +4,7 @@ event_inherited();
 damageable = true;
 
 // Health
-max_hp = 10;
+max_hp = 2;
 hp = max_hp;
 
 // Draw health

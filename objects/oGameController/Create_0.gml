@@ -1,4 +1,4 @@
-alarm[0] = 30;
+//alarm[0] = 30;
 
 global.attack_dir = -1;
 music_theme = aLightMusicMain;
@@ -8,12 +8,17 @@ switch (global.game_mode) {
 	case (gm_light):
 		global.attack_dir = -1;
 		music_theme = aLightMusicMain;
+		global.attack_schedule = load_attack_from_file("light_attack_schedule");
 	break;
 	case (gm_night):
 		global.attack_dir = 1;
 		music_theme = aNightMusicMain;
+		global.attack_schedule = load_attack_from_file("night_attack_schedule");
 	break;
 }
+
+// Create attack schedule
+//global.attack_schedule = create_attack_schedule(global.game_mode);
 
 global.curr_per = 0;
 

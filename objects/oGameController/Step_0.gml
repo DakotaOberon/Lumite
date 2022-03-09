@@ -11,3 +11,5 @@ if (d) {
 		global.curr_per -= 1;
 	}
 }
+
+global.attack_schedule.step();
