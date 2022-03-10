@@ -1,7 +1,7 @@
 // Move here
 if (!place_meeting(x, y - global.attack_dir, oProjectile)) {
 	var speed_percent = in_side ? 1 : 0.5;
-	y -= (global.attack_dir * speed_percent);
+	y -= (global.attack_dir * (speed_percent * move_speed));
 }
 
 var spr_h = (bbox_bottom - bbox_top);

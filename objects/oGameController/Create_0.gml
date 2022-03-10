@@ -34,6 +34,23 @@ game_song = audio_play_sound(music_theme, 100, true);
 audio_sound_gain(game_song, 0.3, 0);
 audio_sound_gain(game_song, 1, 3000);
 
+spawn_boss_wave_function = function () {
+	audio_sound_gain(game_song, 0, 3000);
+	switch (global.game_mode) {
+		case gm_light:
+			music_theme = aLightMusicBoss;
+		break;
+		case gm_night:
+			music_theme = aNightMusicBoss;
+		break;
+	}
+
+	start_boss_wave = true;
+	draw_boss_wave_notification = true;
+	pause_spawning = true;
+	alarm[0] = 180;
+}
+
 //var _fx_moving = fx_create("_filter_heathaze");
 //layer_set_fx("Enemy", _fx_moving);
 

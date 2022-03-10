@@ -17,20 +17,10 @@ if (!pause_spawning) {
 }
 
 if (global.curr_per >= 100 && !start_boss_wave) {
-	audio_sound_gain(game_song, 0, 3000);
-	switch (global.game_mode) {
-		case gm_light:
-			music_theme = aLightMusicBoss;
-		break;
-		case gm_night:
-			music_theme = aNightMusicBoss;
-		break;
-	}
-
-	start_boss_wave = true;
-	draw_boss_wave_notification = true;
-	pause_spawning = true;
-	alarm[0] = 180;
+	spawn_boss_wave_function();
+	// Think of way to start boss wave after all attack patterns are done
+	// Change return of step function if it's the last one being run
+	//		Keep counter that compares against total keys
 }
 
 if (can_end && instance_number(oEnemy) <= 0) {

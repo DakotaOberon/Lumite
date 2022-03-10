@@ -6,12 +6,13 @@ damageable = true;
 // Health
 max_hp = 20;
 hp = max_hp;
+last_hp = hp;
 
 // Draw health
 state_section = image_number / max_hp;
 
 // Movement
-move_speed = 1;
+move_speed = 0.5;
 
 // Value
 xp_value = 8;
@@ -29,5 +30,3 @@ took_damage = false;
 
 damage_draw_alpha = 0;
 damage_draw_alpha_increment = 0.125;
-
-last_hp = hp;
