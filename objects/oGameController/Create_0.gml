@@ -1,5 +1,3 @@
-//alarm[0] = 30;
-
 global.attack_dir = -1;
 music_theme = aLightMusicMain;
 
@@ -21,6 +19,14 @@ switch (global.game_mode) {
 //global.attack_schedule = create_attack_schedule(global.game_mode);
 
 global.curr_per = 0;
+
+start_boss_wave = false;
+
+draw_boss_wave_notification = false;
+
+pause_spawning = false;
+
+can_end = false;
 
 game_song = audio_play_sound(music_theme, 100, true);
 

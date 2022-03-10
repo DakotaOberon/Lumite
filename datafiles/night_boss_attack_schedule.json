@@ -1,0 +1,28 @@
+{
+	"0": {
+		"type": 0,
+		"enemy": "oNightMaggot",
+		"total": 100,
+		"length": 1
+	},
+	"1": {
+		"type": 1,
+		"enemy": "oNightMaggot",
+		"total": 10,
+		"length": 3
+	},
+	"5": [
+		{
+			"type": 2,
+			"enemy": "oNightMaggot",
+			"total": 30,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oNightMaggot",
+			"total": 30,
+			"length": 12
+		}
+	]
+}

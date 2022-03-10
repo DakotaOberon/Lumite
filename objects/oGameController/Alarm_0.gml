@@ -1,10 +1,19 @@
-/// @description Spawn in enemy
+pause_spawning = false;
 
-//var y_spawn = 32 * global.attack_dir;
-//if (global.attack_dir > 0) {
-//	y_spawn += room_height;
-//}
+switch (global.game_mode) {
+	case gm_light:
+		global.attack_schedule = load_attack_from_file("light_boss_attack_schedule");
+	break;
+	case gm_night:
+		global.attack_schedule = load_attack_from_file("night_boss_attack_schedule");
+	break;
+}
 
-//instance_create_layer(irandom_range(32, room_width - 32), y_spawn, "Enemy", oNightMaggot);
+draw_boss_wave_notification = false;
 
-//alarm[0] = 30;
+audio_stop_sound(game_song);
+game_song = audio_play_sound(music_theme, 100, true);
+audio_sound_gain(game_song, 0.3, 0);
+audio_sound_gain(game_song, 1, 3000);
+
+can_end = true;

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collidable",
-    "path": "folders/Objects/Collidable.yy",
+    "name": "Night",
+    "path": "folders/Objects/Collidable/Night.yy",
   },
   "resourceVersion": "1.0",
   "name": "oNightMaggot",

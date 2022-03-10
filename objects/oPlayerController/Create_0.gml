@@ -4,3 +4,5 @@ global.player = new Player();
 log("Getting Strike Upgrade");
 var strike_upgrade = new UpgradeStrike(global.projectile).get();
 strike_upgrade.level_up();
+strike_upgrade.level_up();
+strike_upgrade.level_up();

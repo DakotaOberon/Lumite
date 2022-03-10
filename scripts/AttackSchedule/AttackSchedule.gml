@@ -9,7 +9,7 @@ function AttackSchedule() constructor {
 }
 
 function AttackScheduleAdd(time, attack_pattern) {
-	variable_struct_set(self.patterns, time, attack_pattern);
+	variable_struct_set(self.patterns, time * 60, attack_pattern);
 
 	return self;
 }
@@ -21,16 +21,25 @@ function AttackScheduleStep() {
 		array_push(self.running_patterns, ap);
 	}
 
-	// Go reverse to delete the ones that are done while running
-	for (var i = array_length(self.running_patterns) - 1; i > -1; i--) {
-		if !(self.running_patterns[i].run()) {
-			// Remove pattern once finished
-			self.running_patterns[i].clean();
-			array_delete(self.running_patterns, i, 1);
-		}
-	}
+	AttackScheduleStepHelper(self.running_patterns);
 
 	self.time_tracker += 1;
 
 	return self;
+}
+
+function AttackScheduleStepHelper(arr) {
+	for (var i = array_length(arr) - 1; i > -1; i--) {
+		if (is_struct(arr[i])) {
+			if !(arr[i].run()) {
+				// Remove pattern once finished
+				arr[i].clean();
+				array_delete(arr, i, 1);
+			}
+		} else if (is_array(arr[i])) {
+			AttackScheduleStepHelper(arr[i]);
+		}
+	}
+
+	return arr;
 }

@@ -21,6 +21,7 @@ function Player() constructor {
 	held_projectiles = projectiles;
 	xp = 0;
 	level = 1;
+	total_score = 0;
 	xp_needed_to_level = 100;
 
 	// Functions
@@ -35,17 +36,17 @@ function Player() constructor {
 
 function PlayerUpdateRegen(per=0) {
 	self.bonus.regen_speed += per;
-	
+
 	self.regen = self.base.regen * self.bonus.regen_speed;
-	
+
 	return self;
 }
 
 function PlayerUpdateProjectiles(add=0) {
 	self.bonus.projectiles += add;
-	
+
 	self.projectiles = self.base.projectiles + self.bonus.projectiles;
-	
+
 	return self;
 }
 
@@ -64,6 +65,7 @@ function PlayerGainXP(amount=0) {
 		self.xp = self.xp % self.xp_needed_to_level;
 	}
 
+	self.total_score += amount;
 	return self;
 }
 
