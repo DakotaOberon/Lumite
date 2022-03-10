@@ -18,3 +18,5 @@ empower_range = 128;
 
 empower_list = ds_list_create();
 alarm[1] = 60;
+
+death_sprite = sSunFlowerDead;

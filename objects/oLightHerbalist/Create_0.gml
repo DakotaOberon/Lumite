@@ -14,3 +14,5 @@ move_speed = 0.75;
 
 spawn_flower_timer_max = 600; // 10 Seconds
 spawn_flower_timer = 600;
+
+death_sprite = sLightHerbalistDead;

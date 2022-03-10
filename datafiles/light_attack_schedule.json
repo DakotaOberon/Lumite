@@ -7,7 +7,7 @@
 	},
 	"1": {
 		"type": 1,
-		"enemy": "oNightMaggot",
+		"enemy": "oNightGobo",
 		"total": 10,
 		"length": 3
 	},
@@ -20,7 +20,7 @@
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oNightGobo",
 			"total": 50,
 			"length": 12
 		}
