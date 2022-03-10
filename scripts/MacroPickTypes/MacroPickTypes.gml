@@ -6,7 +6,7 @@
 
 enum Pick {
 	character,
-	shield,
 	frame,
-	alt
+	alt,
+	done
 }

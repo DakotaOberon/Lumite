@@ -1,2 +1,2 @@
 /// @description Begin game
-room_goto(rGame);
+room_goto(rCharacter);

@@ -1,6 +1,8 @@
-section = 
+section = Pick.character;
 
 characters = [];
+
+selection = 0;
 
 switch(global.game_mode) {
 	case(gm_light):
@@ -15,29 +17,36 @@ switch(global.game_mode) {
 	break;
 }
 
-//frames = [
-//	f_air,
-//	f_earth,
-//	f_energy,
-//	f_fire,
-//	f_ice,
-//	f_lightning,
-//	f_rock
-//]
+frames = [
+	f_air,
+	f_earth,
+	f_energy,
+	f_fire,
+	f_ice,
+	f_lightning,
+	f_rock
+]
 
-//types = [pick_game, pick_character, pick_shield, pick_frame, pick_alt];
+options = characters;
 
-//current_pick = pick_game;
+global.picks = {
+	character: -1,
+	frame: -1,
+	alt: -1
+}
 
-//picks = {
-//	gamemode: gm_light,
-//	character: ch_light1,
-//	shield: f_air,
-//	frame: f_air,
-//	alt: f_air
-//}
+pick_speed = 60;
 
-//options = game_options;
+alarm[0] = pick_speed;
+
+char_x = 100;
+char_y = 100;
+
+frame_x = 200;
+frame_y = 100;
+
+alt_x = 200;
+alt_y = 200;
 
 /**
 TODO:
