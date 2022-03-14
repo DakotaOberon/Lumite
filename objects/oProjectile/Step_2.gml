@@ -37,7 +37,7 @@ if (place_meeting(x, y, oPlayer) && can_bounce_on_shield) {
 		// Stop weird bounce glitches
 		can_bounce_on_shield = false;
 		alarm[2] = 2;
-	
+
 		var b_offset = 0;
 
 		// Positive means projectile is to the right
@@ -50,7 +50,7 @@ if (place_meeting(x, y, oPlayer) && can_bounce_on_shield) {
 
 		// Change direction based on where collision occured
 		dir = -dir + b_offset;
-		
+
 		dir = clamp(fix_direction(dir), 1, 179);
 	}
 	

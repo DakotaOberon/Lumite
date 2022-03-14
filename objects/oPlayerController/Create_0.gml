@@ -19,7 +19,7 @@ switch (global.picks.character) {
 		w = w_crossbow;
 	break;
 	case ch_night3:
-		w = w_sword;
+		w = w_spike;
 	break;
 }
 
@@ -74,8 +74,6 @@ switch (global.picks.alt) {
 global.projectile = new Projectile(w, f, a, true);
 global.player = new Player();
 
-log("Getting Strike Upgrade");
-var strike_upgrade = new UpgradeStrike(global.projectile).get();
-strike_upgrade.level_up();
-strike_upgrade.level_up();
-strike_upgrade.level_up();
+var P = global.projectile;
+
+upgrade_init(P);

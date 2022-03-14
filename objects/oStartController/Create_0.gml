@@ -3,12 +3,6 @@ current_selection = 0;
 h_x = room_width / 2;
 h_y = room_height / 2;
 
-// Start text
-start_text = "Press Start";
-start_text_width = string_width(start_text);
-start_text_x = h_x - (start_text_width / 2);
-start_text_y = room_height - 40;
-
 // Colors
 reg_c = $7F7F7F;
 

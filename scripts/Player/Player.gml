@@ -14,6 +14,8 @@ function Player() constructor {
 		move_speed: 1
 	}
 	
+	upgrade_bubbles = { }
+	
 	// Actual
 	regen = base.regen * bonus.regen_speed;
 	projectiles = base.projectiles + bonus.projectiles;
@@ -61,8 +63,16 @@ function PlayerUpdateSpeed(per=0) {
 function PlayerGainXP(amount=0) {
 	self.xp += amount;
 	if (self.xp >= self.xp_needed_to_level) {
-		self.level += floor(self.xp / self.xp_needed_to_level);
+		var level_before = self.level;
+		var lvs = floor(self.xp / self.xp_needed_to_level);
+		self.level += lvs;
 		self.xp = self.xp % self.xp_needed_to_level;
+
+		var i = 1;
+		repeat(lvs) {
+			level_up_action(level_before + i);
+			i++;
+		}
 	}
 
 	self.total_score += amount;

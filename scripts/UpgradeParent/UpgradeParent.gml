@@ -1,5 +1,5 @@
 // Upgrades apply to the projectile only when grabbed
-function Upgrade(_P, _name, m1=f_rock, m2=f_rock) constructor {
+function Upgrade(_P, _name, _icon=UpIcon.rr) constructor {
 	P = _P;
 	level = 0;
 	name = _name;
@@ -16,28 +16,22 @@ function Upgrade(_P, _name, m1=f_rock, m2=f_rock) constructor {
 	}
 
 	get = function() {
-		init();
-		variable_struct_set(self.P.upgrades, self.name, self);
-		level = 1;
+		if (!variable_struct_exists(self.P.upgrades, self.name)) {
+			init();
+			variable_struct_set(self.P.upgrades, self.name, self);
+			level = 1;
+		} else {
+			self.level_up();
+		}
 		return self;
 	}
 
-	makeup = [m1, m2];
+	icon = _icon;
 }
 
-
-//function UpgradeGrowth(P) : OnKillUpgradeType(P, f_earth, f_earth) constructor {
-//	size_increase = 0.05;
-//	level_up = function() {
-//		if (level == 0) {
-//			init();
-//			self._P.add_on_kill(OnKillGrowth);
-//		}
-
-//		self.level += 1;
-//		self._P.growth_val += size_increase;
-//	}
-//}
+function TempUpgrade(P) : Upgrade(P, "tmp", UpIcon.rr) constructor {
+	
+}
 
 //function UpgradeCrunch(P) : Upgrade(P, f_rock, f_rock) constructor {
 //	max_level = 1;

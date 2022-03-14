@@ -11,6 +11,20 @@
 		"total": 5,
 		"length": 3
 	},
+	"2": [
+		{
+			"type": 0,
+			"enemy": "oLightBall",
+			"total": 2,
+			"length": 1
+		},
+		{
+			"type": 1,
+			"enemy": "oLightBall",
+			"total": 2,
+			"length": 1
+		}
+	],
 	"5": [
 		{
 			"type": 2,

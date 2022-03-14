@@ -1,9 +1,3 @@
-var l, r, u, d;
-l = keyboard_check_pressed(ord("A"));
-r = keyboard_check_pressed(ord("D"));
-u = keyboard_check_pressed(ord("U"));
-d = keyboard_check_pressed(ord("D"));
-
 var sel = keyboard_check_pressed(vk_space);
 
 if (sel) {
@@ -19,9 +13,6 @@ if (sel) {
 		break;
 		case Pick.alt:
 			global.picks.alt = options[selection];
-			section = Pick.done;
-		break;
-		case Pick.done:
 			room_goto(rGame);
 		break;
 	}

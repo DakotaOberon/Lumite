@@ -1,23 +1,37 @@
 global.attack_dir = -1;
 music_theme = aLightMusicMain;
 
+horde_text_start = "Then The ";
+horde_text_end = " Changed Everything";
+highlight_color = c_purple;
+
 // Set values based on gamemode
 switch (global.game_mode) {
 	case (gm_light):
 		global.attack_dir = -1;
 		music_theme = aLightMusicMain;
 		global.attack_schedule = load_attack_from_file("light_attack_schedule");
+		horde_text = "Night";
 	break;
 	case (gm_night):
 		global.attack_dir = 1;
 		music_theme = aNightMusicMain;
 		global.attack_schedule = load_attack_from_file("night_attack_schedule");
+		horde_text = "Light";
+		highlight_color = c_teal;
 	break;
 }
 
-// Create attack schedule
-//global.attack_schedule = create_attack_schedule(global.game_mode);
+draw_set_font(fntTitle);
+var tmp_text = horde_text_start + horde_text + horde_text_end;
+var horde_text_w = string_width(tmp_text);
+horde_start_w = string_width(horde_text_start);
+horde_mid_w = string_width(horde_text) + horde_start_w;
+horde_text_x = (room_width / 2) - (horde_text_w / 2);
+horde_text_y = (room_height / 2) - (string_height(tmp_text) / 2);
+draw_set_font(fntDefault);
 
+// Create attack schedule
 global.curr_per = 0;
 
 start_boss_wave = false;

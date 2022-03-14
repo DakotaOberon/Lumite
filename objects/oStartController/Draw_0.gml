@@ -57,7 +57,6 @@ draw_roundrect_color_ext(h_x, b_s, n_x2, l_y2, b_r, b_r, n_c, n_c, 0);
 draw_roundrect_color_ext(h_x, b_s, n_x2, l_y2, b_r, b_r, t_c, t_c, 1);
 draw_roundrect_color_ext(h_x + 1, b_s + 1, n_x2 - 1, l_y2 - 1, b_r, b_r, t_c, t_c, 1);
 
-
 // Draw Selection border
 draw_rectangle_border(x1, y1, x2, y2, c1, c2, c3, w);
 draw_rectangle_border(x1, y1, x2, y2, t_c, t_c, t_c, w, true);
@@ -66,9 +65,6 @@ draw_rectangle_border(x1 + 1, y1 + 1, x2 - 1, y2 - 1, t_c, t_c, t_c, w, true);
 // Draw Gamemode symbols
 draw_sprite_ext(sGamemodeSymbol, gm_light, l_icon_x, l_icon_y, l_s, l_s, l_r, c_white, l_a);
 draw_sprite_ext(sGamemodeSymbol, gm_night, n_icon_x, n_icon_y, n_s, n_s, n_r, c_white, n_a);
-
-// Start text
-draw_text(start_text_x, start_text_y, start_text);
 
 draw_set_alpha(fade_to_black_alpha);
 draw_rectangle_color(0, 0, room_width, room_height, t_c, t_c, t_c, t_c, 0);
