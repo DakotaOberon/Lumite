@@ -8,7 +8,7 @@
 */
 function projectile_update_values(P, p) {
 	p.P = P;
-	p.hp = P.hp;
+	p.hp = P.base.hp;
 	p.is_primary = P.is_primary;
 
 	return p;

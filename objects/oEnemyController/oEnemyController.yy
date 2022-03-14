@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sNightMaggot",
-    "path": "sprites/sNightMaggot/sNightMaggot.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oEnemy",
-    "path": "objects/oEnemy/oEnemy.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +19,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Night",
-    "path": "folders/Objects/Collidable/Night.yy",
+    "name": "Controller",
+    "path": "folders/Objects/Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNightMaggot",
+  "name": "oEnemyController",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -187,7 +187,7 @@ function ProjectileRunOnDeath(_p=noone) {
 
 function ProjectileAddPassive(passive) {
 	array_push(self.passives, passive);
-	
+
 	return self;
 }
 
@@ -224,7 +224,7 @@ function ProjectileChangeAlt(_a) {
 	return self;
 }
 
-function ProjectileCreate(_x, _y, _dir=90) {
+function ProjectileCreate(_x, _y, _dir=90, _layer="Projectile", is_enemy=false) {
 	var create_projectile = true
 	if (self.is_primary) {
 		if (!global.player.use_projectile()) {
@@ -233,8 +233,9 @@ function ProjectileCreate(_x, _y, _dir=90) {
 	}
 
 	if (create_projectile) {
-		var p = instance_create_layer(_x, _y, "Projectile", oProjectile);
+		var p = instance_create_layer(_x, _y, _layer, oProjectile);
 		p.dir = _dir;
+		p.is_enemy = is_enemy;
 
 		return projectile_update_values(self, p);
 	}

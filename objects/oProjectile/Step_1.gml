@@ -1,9 +1,9 @@
 // Fix dir
 dir = fix_direction(dir);
 
-var max_dir_range = (180 - max_dir);
+//var max_dir_range = (180 - max_dir);
 
-var target_dir = dir;
+//var target_dir = dir;
 
 //if (dir > max_dir && dir < max_dir + (max_dir_range * 2)) {
 //	// If dir is within bad dir range left
@@ -21,4 +21,8 @@ var target_dir = dir;
 //	}
 //}
 
-dir = approach(dir, target_dir, 2);
+//dir = approach(dir, target_dir, 2);
+
+for (var i = 0; i < array_length(P.passives); i++) {
+	P.passives[i](P, self);
+}

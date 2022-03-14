@@ -17,9 +17,9 @@ function Upgrade(_P, _name, _icon=UpIcon.rr) constructor {
 
 	get = function() {
 		if (!variable_struct_exists(self.P.upgrades, self.name)) {
-			init();
 			variable_struct_set(self.P.upgrades, self.name, self);
-			level = 1;
+			init();
+			level = 0;
 		} else {
 			self.level_up();
 		}

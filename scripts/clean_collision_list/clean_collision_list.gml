@@ -15,10 +15,6 @@ function clean_collision_list(arr) {
 			array_delete(arr, i, 1);
 		}
 	}
-	
-	if (removed > 0) {
-		log("Cleaned", removed, "objects from collision list");
-	}
 
 	return removed;
 }

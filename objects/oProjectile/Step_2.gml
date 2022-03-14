@@ -24,7 +24,7 @@ if (y <= 0) {
 		if (yMove >= 0) {
 			dir = -dir;
 		}
-	} else if (y > room_height + image_yscale) {
+	} else if (y > room_height + (sprite_height * image_yscale)) {
 		// Or don't, I don't care
 		// Destroy instance if it's a lost cause
 		instance_destroy();
@@ -52,6 +52,14 @@ if (place_meeting(x, y, oPlayer) && can_bounce_on_shield) {
 		dir = -dir + b_offset;
 
 		dir = clamp(fix_direction(dir), 1, 179);
+		
+		if (is_enemy) {
+			is_enemy = false;
+		}
 	}
 	
+}
+
+if (!is_enemy && layer == layer_get_id("EnemyProjectile")) {
+	layer = layer_get_id("Projectile");
 }

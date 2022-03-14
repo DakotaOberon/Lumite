@@ -16,7 +16,7 @@ function OnKillUpgradeType(_P, _name, _icon=UpIcon.erer) : Upgrade(_P, _name, _i
 }
 
 function UpgradeGrowth(P) : OnKillUpgradeType(P, "growth", UpIcon.rer) constructor {
-	growth_val = 0.05;
+	growth_val = 0;
 	size_increase = 0.05;
 
 	specific_level_up_function = function() {

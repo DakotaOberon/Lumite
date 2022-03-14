@@ -1,9 +1,9 @@
 #macro Uprr TempUpgrade
 #macro Uprl UpgradeExecute
 #macro Uprf UpgradeExplode
-#macro Upri TempUpgrade
+#macro Upri UpgradeShatter
 #macro Uprer UpgradeGrowth
-#macro Upren TempUpgrade
+#macro Upren UpgradeGravitational
 #macro Upra TempUpgrade
 #macro Upll UpgradeStrike
 #macro Uplf TempUpgrade

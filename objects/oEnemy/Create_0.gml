@@ -30,3 +30,5 @@ took_damage = false;
 
 damage_draw_alpha = 0;
 damage_draw_alpha_increment = 0.125;
+
+can_shoot = true;
