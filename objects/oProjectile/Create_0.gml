@@ -45,6 +45,4 @@ can_bounce_on_shield = false;
 
 max_offset = 45;
 
-grav_target = noone;
-
 is_enemy = false;

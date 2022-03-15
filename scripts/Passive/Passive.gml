@@ -7,9 +7,5 @@ function PassiveGravitational(P, _p=noone, _e=noone) {
 
 		// Adjust direction
 		_p.dir = _p.dir + (sign(dis) * min(abs(dis), P.upgrades.gravitational.max_direction_change));
-
-		_p.grav_target = nearest;
-	} else {
-		_p.grav_target = noone;
 	}
 }

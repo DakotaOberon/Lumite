@@ -13,13 +13,13 @@ switch(global.game_mode) {
 	case(gm_light):
 		array_push(characters, ch_light1);
 		array_push(characters, ch_light2);
-		array_push(characters, ch_light3);
+		//array_push(characters, ch_light3);
 		cols = [ $00F0FF, c_silver, $BBCD67];
 		sel_c = $CCBF78;
 	break;
 	case (gm_night):
 		array_push(characters, ch_night1);
-		array_push(characters, ch_night2);
+		//array_push(characters, ch_night2);
 		array_push(characters, ch_night3);
 		cols = [ $4D0F0F, c_silver, $3F0244];
 		sel_c = $9675B2;
