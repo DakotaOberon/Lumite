@@ -10,7 +10,7 @@ last_hp = hp;
 state_section = image_number / max_hp;
 
 // Movement
-move_speed = 0.75;
+move_speed = 0.5;
 
 spawn_flower_timer_max = 600; // 10 Seconds
 spawn_flower_timer = 600;

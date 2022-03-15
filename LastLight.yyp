@@ -70,7 +70,6 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sBramble","path":"sprites/sBramble/sBramble.yy",},"order":2,},
     {"id":{"name":"sShield","path":"sprites/sShield/sShield.yy",},"order":0,},
-    {"id":{"name":"oLightGobo","path":"objects/oLightGobo/oLightGobo.yy",},"order":2,},
     {"id":{"name":"aLightMusicBoss","path":"sounds/aLightMusicBoss/aLightMusicBoss.yy",},"order":3,},
     {"id":{"name":"sNightMaggot","path":"sprites/sNightMaggot/sNightMaggot.yy",},"order":2,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},

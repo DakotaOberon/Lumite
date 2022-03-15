@@ -16,3 +16,5 @@ destroy_me = false;
 
 dest_sub = 0;
 dest_alpha = 1;
+
+xp_value = 7;

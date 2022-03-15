@@ -27,6 +27,7 @@ if (!destroy_me) {
 
 	if (place_meeting(x, y, oPlayer)) {
 		destroy_me = true;
+		global.player.gain_xp(xp_value);
 	}
 
 	if (destroy_me) {

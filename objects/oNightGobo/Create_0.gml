@@ -12,7 +12,7 @@ last_hp = hp;
 state_section = image_number / max_hp;
 
 // Movement
-normal_speed = 0.75;
+normal_speed = 0.5;
 move_speed = normal_speed;
 
 death_sprite = sNightGoboDead;
