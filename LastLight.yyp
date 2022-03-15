@@ -76,6 +76,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
     {"id":{"name":"sStoneShield","path":"sprites/sStoneShield/sStoneShield.yy",},"order":4,},
     {"id":{"name":"MacroGamemodes","path":"scripts/MacroGamemodes/MacroGamemodes.yy",},"order":3,},
+    {"id":{"name":"sBrambleThorns","path":"sprites/sBrambleThorns/sBrambleThorns.yy",},"order":4,},
     {"id":{"name":"MacroCharacters","path":"scripts/MacroCharacters/MacroCharacters.yy",},"order":2,},
     {"id":{"name":"sGamemodeSymbol","path":"sprites/sGamemodeSymbol/sGamemodeSymbol.yy",},"order":1,},
     {"id":{"name":"sChainsLink","path":"sprites/sChainsLink/sChainsLink.yy",},"order":6,},

@@ -6,7 +6,7 @@ draw_left_launch_angle = 135;
 draw_right_launch_angle = 45;
 
 c_x_offset = 0;
-c_y_offset = 0;
+c_y_offset = 16;
 
 switch (global.picks.character) {
 	case ch_light1:

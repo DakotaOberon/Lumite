@@ -1,1 +1,1 @@
-bulb_count = 100 - global.curr_per;
+bramble_health = 100 - global.curr_per;
