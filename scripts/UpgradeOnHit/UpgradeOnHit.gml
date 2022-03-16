@@ -1,4 +1,4 @@
-function OnHitUpgradeType(_P, _name, _icon=UpIcon.ll) : Upgrade(_P, _name, _icon) constructor {
+function OnHitUpgradeType(_P, _name, _icon=UpIcon.ss) : Upgrade(_P, _name, _icon) constructor {
 	// Set inside child upgrade
 	on_hit_function = function() {};
 	specific_level_up_function = function() {};
@@ -12,7 +12,7 @@ function OnHitUpgradeType(_P, _name, _icon=UpIcon.ll) : Upgrade(_P, _name, _icon
 	}
 }
 
-function UpgradeStrike(_P) : OnHitUpgradeType(_P, "strike", UpIcon.ll) constructor {
+function UpgradeStrike(_P) : OnHitUpgradeType(_P, "strike", UpIcon.ap) constructor {
 	strike_damage = 0;
 	strike_amount = 1;
 	on_hit_function = OnHitStrike;
@@ -25,7 +25,7 @@ function UpgradeStrike(_P) : OnHitUpgradeType(_P, "strike", UpIcon.ll) construct
 	}
 }
 
-function UpgradeExecute(_P) : OnHitUpgradeType(_P, "execute", UpIcon.rl) constructor {
+function UpgradeExecute(_P) : OnHitUpgradeType(_P, "execute", UpIcon.ds) constructor {
 	execute_per = 0;
 	execute_up_amount = 0.05;
 	
@@ -36,7 +36,7 @@ function UpgradeExecute(_P) : OnHitUpgradeType(_P, "execute", UpIcon.rl) constru
 	}
 }
 
-function UpgradeExplode(_P) : OnHitUpgradeType(_P, "explode", UpIcon.rf) constructor {
+function UpgradeExplode(_P) : OnHitUpgradeType(_P, "explode", UpIcon.sa) constructor {
 	explosion_radius = 0;
 	explosion_up_amount = 10;
 	explosion_damage = 1;

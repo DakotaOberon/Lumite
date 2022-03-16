@@ -31,13 +31,10 @@ c_2 = 1;
 c_3 = 2;
 
 frames = [
-	f_air,
-	f_earth,
-	f_energy,
-	f_fire,
-	f_ice,
-	f_lightning,
-	f_rock
+	f_dense,
+	f_sharp,
+	f_adapt,
+	f_precise
 ]
 
 options = characters;

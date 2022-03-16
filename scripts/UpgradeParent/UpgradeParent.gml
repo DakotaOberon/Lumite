@@ -1,5 +1,5 @@
 // Upgrades apply to the projectile only when grabbed
-function Upgrade(_P, _name, _icon=UpIcon.rr) constructor {
+function Upgrade(_P, _name, _icon=UpIcon.dd) constructor {
 	P = _P;
 	level = 0;
 	name = _name;
@@ -29,11 +29,11 @@ function Upgrade(_P, _name, _icon=UpIcon.rr) constructor {
 	icon = _icon;
 }
 
-function TempUpgrade(P) : Upgrade(P, "tmp", UpIcon.rr) constructor {
+function TempUpgrade(P) : Upgrade(P, "tmp", UpIcon.dd) constructor {
 	
 }
 
-//function UpgradeCrunch(P) : Upgrade(P, f_rock, f_rock) constructor {
+//function UpgradeCrunch(P) : Upgrade(P, f_dense, f_dense) constructor {
 //	max_level = 1;
 
 //	level_up = function() {

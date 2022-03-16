@@ -4,7 +4,7 @@ event_inherited();
 damageable = true;
 
 // Health
-max_hp = 20;
+max_hp = 8;
 hp = max_hp;
 last_hp = hp;
 

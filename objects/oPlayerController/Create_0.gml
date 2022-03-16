@@ -24,50 +24,32 @@ switch (global.picks.character) {
 }
 
 switch (global.picks.frame) {
-	case f_air:
-		f = c_air;
+	case f_dense:
+		f = c_dense;
 	break;
-	case f_earth:
-		f = c_earth;
+	case f_sharp:
+		f = c_sharp;
 	break;
-	case f_energy:
-		f = c_energy;
+	case f_adapt:
+		f = c_adapt;
 	break;
-	case f_fire:
-		f = c_fire;
-	break;
-	case f_ice:
-		f = c_ice;
-	break;
-	case f_lightning:
-		f = c_lightning;
-	break;
-	case f_rock:
-		f = c_rock;
+	case f_precise:
+		f = c_precise;
 	break;
 }
 
 switch (global.picks.alt) {
-	case f_air:
-		a = c_air;
+	case f_dense:
+		a = c_dense;
 	break;
-	case f_earth:
-		a = c_earth;
+	case f_sharp:
+		a = c_sharp;
 	break;
-	case f_energy:
-		a = c_energy;
+	case f_adapt:
+		a = c_adapt;
 	break;
-	case f_fire:
-		a = c_fire;
-	break;
-	case f_ice:
-		a = c_ice;
-	break;
-	case f_lightning:
-		a = c_lightning;
-	break;
-	case f_rock:
-		a = c_rock;
+	case f_precise:
+		a = c_precise;
 	break;
 }
 

@@ -1,14 +1,14 @@
 /**
 * Projectile struct player created projectiles will spawn from
 *
-* @function		Projectile(w=w_wand, f=f_rock, a=f_rock)
+* @function		Projectile(w=w_wand, f=f_dense, a=f_dense)
 * @param		{real}		weapon			Weapon type projectile is
 * @param		{real}		frame			Primary frame of projectile
 * @param		{real}		alt				Secondary frame of projectile
 * @param		{bool}		p				If projectile is a primary projectile of player
 * @return		{self}
 */
-function Projectile(_w=w_wand, _f=f_rock, _a=f_rock, _p=false) constructor {
+function Projectile(_w=w_wand, _f=f_dense, _a=f_dense, _p=false) constructor {
 	weapon = _w;
 	frame = _f;
 	alt = _a;

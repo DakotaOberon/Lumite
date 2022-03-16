@@ -1,4 +1,4 @@
-icon = UpIcon.rr;
+icon = UpIcon.dd;
 name = "";
 
 scale = 1;
@@ -11,11 +11,11 @@ group = -1;
 
 delete_group = function () {
 	var insts = instance_number(oUpgradeBubble);
-	log("Number of Insts:", insts);
+
 	for (var i = 0; i < insts; i++) {
 		var b = instance_find(oUpgradeBubble, i);
 		if (instance_exists(b)) {
-			log("Group Number:", b.group);
+
 			if (b.id != id) {
 				if (b.group = group) {
 					instance_destroy(b.id);

@@ -54,10 +54,11 @@ if (place_meeting(x, y, oPlayer) && can_bounce_on_shield) {
 		dir = clamp(fix_direction(dir), 1, 179);
 		
 		if (is_enemy) {
-			is_enemy = false;
+			global.curr_per += 1;
+			oPlayer.took_damage = true;
+			instance_destroy();
 		}
 	}
-	
 }
 
 if (!is_enemy && layer == layer_get_id("EnemyProjectile")) {

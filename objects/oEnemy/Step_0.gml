@@ -19,3 +19,6 @@ if (destroy_me) {
 	}
 	instance_destroy();
 }
+
+image_xscale = scale;
+image_yscale = scale;

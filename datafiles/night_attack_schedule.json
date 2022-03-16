@@ -38,5 +38,19 @@
 			"total": 5,
 			"length": 12
 		}
+	],
+	"10": [
+		{
+			"type": 0,
+			"enemy": "oLightTurtle",
+			"total": 2,
+			"length": 1
+		},
+		{
+			"type": 3,
+			"enemy": "oLightTurtle",
+			"total": 1,
+			"length": 1
+		}
 	]
 }

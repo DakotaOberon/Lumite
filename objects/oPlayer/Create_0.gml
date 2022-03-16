@@ -31,3 +31,8 @@ switch (global.picks.character) {
 		c_y_offset = 16;
 	break;
 }
+
+took_damage = false;
+
+damage_draw_alpha = 0;
+damage_draw_alpha_increment = 0.125;
