@@ -1,8 +1,9 @@
 if (!fade_to_black) {
-	var l, r;
+	var l, r, s;
 
 	l = keyboard_check_pressed(ord("A"));
 	r = keyboard_check_pressed(ord("D"));
+	s = keyboard_check_pressed(ord("Q")) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("E"));
 
 	// Change Selection
 	if (l && current_selection != 0) {
@@ -14,7 +15,7 @@ if (!fade_to_black) {
 	}
 
 	// Start
-	if (keyboard_check_pressed(vk_space)) {
+	if (s) {
 		global.game_mode = current_selection;
 		fade_to_black = true;
 		alarm[1] = fade_to_black_timer;

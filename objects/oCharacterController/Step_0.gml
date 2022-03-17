@@ -1,4 +1,4 @@
-var sel = keyboard_check_pressed(vk_space);
+var sel = keyboard_check_pressed(ord("Q")) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("E"));
 
 if (sel) {
 	switch (section) {

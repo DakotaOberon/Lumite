@@ -67,7 +67,6 @@
     {"id":{"name":"OnHit","path":"scripts/OnHit/OnHit.yy",},"order":4,},
     {"id":{"name":"aNightMusicMain","path":"sounds/aNightMusicMain/aNightMusicMain.yy",},"order":2,},
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"order":0,},
-    {"id":{"name":"rtmp","path":"rooms/rtmp/rtmp.yy",},"order":6,},
     {"id":{"name":"sNightCacoonDead","path":"sprites/sNightCacoonDead/sNightCacoonDead.yy",},"order":7,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":1,},
@@ -123,7 +122,6 @@
     {"id":{"name":"sFrameIcon","path":"sprites/sFrameIcon/sFrameIcon.yy",},"order":14,},
     {"id":{"name":"oGlobalController","path":"objects/oGlobalController/oGlobalController.yy",},"order":5,},
     {"id":{"name":"check_surface","path":"scripts/check_surface/check_surface.yy",},"order":0,},
-    {"id":{"name":"tmpController","path":"objects/tmpController/tmpController.yy",},"order":0,},
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},"order":2,},
   ],
   "Options": [
@@ -145,7 +143,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rtmp","path":"rooms/rtmp/rtmp.yy",},},
     {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rCharacter","path":"rooms/rCharacter/rCharacter.yy",},},
@@ -184,7 +181,6 @@
     {"folderPath":"folders/Sounds/Music.yy","order":1,"resourceVersion":"1.0","name":"Music","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Select.yy","order":2,"resourceVersion":"1.0","name":"Select","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Game/Upgrade.yy","order":3,"resourceVersion":"1.0","name":"Upgrade","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/tmp.yy","order":8,"resourceVersion":"1.0","name":"tmp","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Game/AttackSchedule.yy","order":6,"resourceVersion":"1.0","name":"AttackSchedule","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Collidable/Light.yy","order":3,"resourceVersion":"1.0","name":"Light","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Collidable/Night.yy","order":4,"resourceVersion":"1.0","name":"Night","tags":[],"resourceType":"GMFolder",},
