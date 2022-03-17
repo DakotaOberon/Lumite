@@ -1,23 +1,25 @@
 function level_up_action(level) {
-	var ups = find_lowest_level_upgrades(global.projectile);
-	var x_start = 64;
-	var x_spread = ((room_width ) / 3);
+	if (layer_exists(layer_get_id("Player"))) {
+		var ups = find_lowest_level_upgrades(global.projectile);
+		var x_start = 64;
+		var x_spread = ((room_width ) / 3);
 
-	for (var i = 0; i < array_length(ups); i++) {
-		var bub = instance_create_layer(x_start + (i * x_spread), 0, "Player", oUpgradeBubble);
-		bub.icon = ups[i].icon;
-		bub.name = ups[i].name;
-		bub.group = level;
+		for (var i = 0; i < array_length(ups); i++) {
+			var bub = instance_create_layer(x_start + (i * x_spread), 0, "Player", oUpgradeBubble);
+			bub.icon = ups[i].icon;
+			bub.name = ups[i].name;
+			bub.group = level;
+		}
+
+		delete ups;
 	}
-
-	delete ups;
 }
 
 function find_lowest_level_upgrades(P) {
 	var arr = [];
 
 	var keys = variable_struct_get_names(P.upgrades);
-	
+
 	var filler_up = P.upgrades[$ keys[0]];
 
 	for (var i = 0; i < array_length(keys); i++) {

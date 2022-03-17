@@ -11,9 +11,9 @@ switch (global.game_mode) {
 
 draw_boss_wave_notification = false;
 
-audio_stop_sound(game_song);
-game_song = audio_play_sound(music_theme, 100, true);
-audio_sound_gain(game_song, 0.3, 0);
-audio_sound_gain(game_song, 1, 3000);
+audio_stop_sound(global.game_song);
+global.game_song = audio_play_sound(music_theme, 100, true);
+audio_sound_gain(global.game_song, 0.3, 0);
+audio_sound_gain(global.game_song, 1, 3000);
 
 can_end = true;

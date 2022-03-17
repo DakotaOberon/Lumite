@@ -24,5 +24,11 @@
 			"total": 30,
 			"length": 12
 		}
-	]
+	],
+	"30": {
+		"type": 0,
+		"enemy": "oLightTurtle",
+		"total": 20,
+		"length": 1
+	}
 }

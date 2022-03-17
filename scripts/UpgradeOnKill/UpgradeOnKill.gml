@@ -29,8 +29,9 @@ function UpgradeShatter(_P) : OnKillUpgradeType(_P, "shatter", UpIcon.dp) constr
 	projectile = new Projectile(w_shatter, f_dense, f_precise);
 
 	// Set projectile values
-	projectile.change_base_hp(30);
+	projectile.change_base_hp(2);
 	projectile.update_speed(0.5);
+	projectile.update_damage(-0.5);
 
 	on_kill_function = OnKillShatter;
 

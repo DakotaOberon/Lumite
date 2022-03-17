@@ -23,6 +23,10 @@ if (global.curr_per >= 100 && !start_boss_wave) {
 	//		Keep counter that compares against total keys
 }
 
+if (keyboard_check_pressed(vk_alt)) {
+	room_goto(rEnd);
+}
+
 if (can_end && instance_number(oEnemy) <= 0) {
 	room_goto(rEnd);
 }

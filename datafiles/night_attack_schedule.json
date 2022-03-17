@@ -52,5 +52,11 @@
 			"total": 1,
 			"length": 1
 		}
-	]
+	],
+	"270": {
+		"type": 1,
+		"enemy": "oLightTurtle",
+		"total": 6,
+		"length": 3
+	}
 }

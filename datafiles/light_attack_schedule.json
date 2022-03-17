@@ -24,5 +24,11 @@
 			"total": 50,
 			"length": 12
 		}
-	]
+	],
+	"270": {
+		"type": 0,
+		"enemy": "oNightMaggot",
+		"total": 20,
+		"length": 1
+	}
 }
