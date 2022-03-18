@@ -45,7 +45,7 @@ global.picks = {
 	alt: -1
 }
 
-pick_speed = 90;
+pick_speed = 30;
 
 alarm[0] = pick_speed;
 
@@ -92,10 +92,3 @@ coords = {
 		y2: alt_y + fi_h
 	}
 }
-
-/**
-TODO:
-	- Finish character create room
-	- Enemy projectiles
-	- Bramble / Health
-**/

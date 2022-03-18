@@ -59,3 +59,4 @@ global.player = new Player();
 var P = global.projectile;
 
 upgrade_init(P);
+log(variable_struct_get_names(P.upgrades));

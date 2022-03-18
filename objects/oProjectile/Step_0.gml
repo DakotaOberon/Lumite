@@ -79,6 +79,27 @@ if (!is_enemy) {
 	delete cols;
 }
 
+// Crunch time
+if (crunch_timer > 0) {
+	// Don't crunch while on cooldown
+	crunch_timer -= 1;
+	
+	// After cooldown is done, set can start crunch to true
+	if (crunch_timer <= 0) {
+		can_start_crunch = true;
+	}
+}
+
+if (can_crunch_timer > 0) {
+	// Crunching during this time
+	can_crunch_timer -= 1;
+
+	// Once finished, start cooldown
+	if (can_crunch_timer <= 0) {
+		crunch_timer = crunch_cooldown;
+	}
+}
+
 // Move
 x += xMove;
 y += yMove;

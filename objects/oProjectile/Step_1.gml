@@ -1,6 +1,9 @@
 // Fix dir
 dir = fix_direction(dir);
 
+// Reset bounce state
+bounce_state = 0;
+
 //var max_dir_range = (180 - max_dir);
 
 //var target_dir = dir;

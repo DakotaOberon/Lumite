@@ -10,9 +10,7 @@ function bounce() {
 	var xCol = collision_rectangle(bbox_left + xMove, bbox_top, bbox_right + xMove, bbox_bottom, oCollidable, 0, 1);
 
 	if (can_bounce) {
-		if (xCol) {
-			//var xBefore = x; // Used for debugging
-			
+		if (xCol) {			
 			var ent_dir = xCol.x - x;
 			// Compare collision side to create a better collision
 			var xDis = 0;
@@ -27,18 +25,9 @@ function bounce() {
 			// Move obj against other object before bouncing
 			x += xDis;
 			dir = -dir + 180;
-			//var xMoveBefore = xMove; // Used for debugging
+			bounce_state += 1;
 			
 			xMove = 0;
-			
-			// For debugging bounce bugs
-			//var xDiff = xBefore - x;
-			//if (abs(xDiff) > 4) {
-			//	log("!!! X Diff too large:", xDiff);
-			//	log("xDis:", xDis);
-			//	log("xMove Before:", xMoveBefore);
-			//	log("xMove After:", xMove);
-			//}
 		}
 	}
 
@@ -63,13 +52,8 @@ function bounce() {
 			// Move obj against other object before bouncing
 			y += yDis;
 			dir = -dir;
-			yMove = 0; // -(yMove - yDis);
-
-			// For debugging bounce bugs
-			//var yDiff = yBefore - y;
-			//if (abs(yDiff) > abs(yMove)) {
-			//	log("!!! Y Diff too large:", yDiff);
-			//}
+			yMove = 0;
+			bounce_state += 2;
 		}
 	}
 

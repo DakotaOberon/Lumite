@@ -45,7 +45,7 @@ function Projectile(_w=w_wand, _f=f_dense, _a=f_dense, _p=false) constructor {
 	update_bounce_off_bottom = ProjectileUpdateBounceOffBottom;
 
 	growth_val = 0; // 0 for no growth
-	kills_for_upgrade = 0; // 0 for no upgrades on kill
+	kills_for_upgrade = 5; // 0 for no upgrades on kill
 	strike_val = 0; // 0 for no damage on strike
 	aoe_range = 0; // 0 for no aoe
 	burn_time = 0; // 0 for no burn

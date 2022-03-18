@@ -39,3 +39,13 @@ function UpgradeShatter(_P) : OnKillUpgradeType(_P, "shatter", UpIcon.dp) constr
 		self.projectile_count += 1;
 	}
 }
+
+function UpgradeHunger(_P) : OnKillUpgradeType(_P, "hunger", UpIcon.aa) constructor {
+	heal_amount = 0;
+
+	on_kill_function = OnKillHunger;
+
+	specific_level_up_function = function() {
+		self.heal_amount += 0.1;
+	}
+}

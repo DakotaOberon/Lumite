@@ -51,3 +51,33 @@ function UpgradeExplode(_P) : OnHitUpgradeType(_P, "explode", UpIcon.sa) constru
 		self.explosion_radius += explosion_up_amount;
 	}
 }
+
+function UpgradePush(_P) : OnHitUpgradeType(_P, "push", UpIcon.pp) constructor {
+	push_amount = 0;
+	
+	on_hit_function = OnHitPush;
+	
+	specific_level_up_function = function() {
+		self.push_amount += 0.5;
+	}
+}
+
+function UpgradeBurn(_P) : OnHitUpgradeType(_P, "burn", UpIcon.sp) constructor {
+	burn_amount = 0.1;
+	burn_timer = 0;
+
+	on_hit_function = OnHitBurn;
+	
+	specific_level_up_function = function() {
+		self.burn_timer += 5;
+	}
+}
+
+function UpgradeCrunch(_P) : OnHitUpgradeType(_P, "crunch", UpIcon.ss) constructor {
+	on_kill_function = OnHitCrunch;
+	crunch_timer = 0;
+
+	specific_level_up_function = function() {
+		self.crunch_timer += 6;
+	}
+}

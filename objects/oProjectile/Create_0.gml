@@ -46,3 +46,12 @@ can_bounce_on_shield = false;
 max_offset = 45;
 
 is_enemy = false;
+
+bounce_state = 0;
+
+crunch_timer = 0;
+
+crunch_cooldown = 30;
+can_crunch_timer = 30;
+
+can_start_crunch = true;

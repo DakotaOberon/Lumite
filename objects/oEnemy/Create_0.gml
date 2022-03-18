@@ -46,3 +46,5 @@ y_edge = 0;
 if (global.attack_dir < 0) {
 	y_end += room_height;
 }
+
+burn_timer = 0;
