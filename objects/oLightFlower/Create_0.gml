@@ -2,7 +2,7 @@
 event_inherited();
 
 // Health
-max_hp = 4 + (spawn_per * 8);
+max_hp = 1 + (spawn_per * 10);
 hp = max_hp;
 last_hp = hp;
 

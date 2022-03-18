@@ -7,7 +7,7 @@ damageable = true;
 spawn_per = global.curr_per / 100;
 
 // Health
-max_hp = 8 + (spawn_per * 8);
+max_hp = 3 + (spawn_per * 21);
 hp = max_hp;
 last_hp = hp;
 

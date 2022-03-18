@@ -7,8 +7,6 @@ function Upgrade(_P, _name, _icon=UpIcon.dd) constructor {
 	additional_level_up_function = function () {};
 	init = function () {};
 
-	max_level = 3;
-
 	level_up = function() {
 		additional_level_up_function();
 		self.level += 1;
@@ -32,18 +30,3 @@ function Upgrade(_P, _name, _icon=UpIcon.dd) constructor {
 function TempUpgrade(P) : Upgrade(P, "tmp", UpIcon.dd) constructor {
 	
 }
-
-//function UpgradeCrunch(P) : Upgrade(P, f_dense, f_dense) constructor {
-//	max_level = 1;
-
-//	level_up = function() {
-//		if (self.level = 0) {
-//			self._P.add_on_kill(OnKillCrunch);
-//		}
-
-//		if (self.level < self.max_level) {
-//			self.level += 1;
-//		}
-//	}
-//}
-

@@ -1,6 +1,8 @@
 function AttackSchedule() constructor {
 	time_tracker = 0;
 	patterns = { }
+	
+	last_key = "9999";
 
 	running_patterns = [];
 
@@ -9,6 +11,10 @@ function AttackSchedule() constructor {
 }
 
 function AttackScheduleAdd(time, attack_pattern) {
+	if (time * 60 > real(last_key)) {
+		last_key = string(time * 60);
+	}
+
 	variable_struct_set(self.patterns, time * 60, attack_pattern);
 
 	return self;

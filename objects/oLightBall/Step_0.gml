@@ -25,17 +25,26 @@ if (!destroy_me) {
 	x += xMove;
 	y += yMove;
 
-	if (place_meeting(x, y, oPlayer)) {
-		destroy_me = true;
-		global.player.gain_xp(xp_value);
-	}
-
 	if (destroy_me) {
 		// They've made it passed
 		if (global.curr_per < 100) {
 			global.curr_per += 1;
 		}
 		alarm[0] = 60;
+	}
+
+	var proj_col = collision_circle(x, y, sprite_width/2, oProjectile, 0, 1);
+
+	if (instance_exists(proj_col)) {
+		if (!proj_col.is_enemy) {
+			destroy_me = true;
+			global.player.gain_xp(xp_value);
+		}
+	}
+
+	if (place_meeting(x, y, oPlayer) && !destroy_me) {
+		destroy_me = true;
+		global.player.gain_xp(xp_value);
 	}
 
 	rot -= xMove;

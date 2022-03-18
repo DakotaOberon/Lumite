@@ -64,12 +64,3 @@ spawn_boss_wave_function = function () {
 	pause_spawning = true;
 	alarm[0] = 180;
 }
-
-//var _fx_moving = fx_create("_filter_heathaze");
-//layer_set_fx("Enemy", _fx_moving);
-
-//var _fx_outline = fx_create("_filter_outline");
-//fx_set_parameter(_fx_outline, 
-
-//layer_set_fx("Enemy", _fx_outline);
-//layer_set_fx("Projectile", _fx_outline);

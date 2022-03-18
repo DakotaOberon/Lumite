@@ -6,6 +6,7 @@ if (y > room_height + 32) {
 
 if (place_meeting(x, y, oPlayer)) {
 	if (can_be_grabbed) {
+		level_upgrade(name);
 		can_be_grabbed = false;
 		delete_group(group);
 		instance_destroy();
