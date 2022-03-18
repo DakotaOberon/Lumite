@@ -1,34 +1,156 @@
 {
-	"0": {
-		"type": 0,
-		"enemy": "oNightMaggot",
-		"total": 100,
-		"length": 1
-	},
-	"1": {
-		"type": 1,
-		"enemy": "oNightMaggot",
-		"total": 10,
-		"length": 3
-	},
-	"5": [
+	"0": [
+		{
+			"type": 0,
+			"enemy": "oLightHerbalist",
+			"total": 30,
+			"length": 1
+		},
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
-			"total": 30,
-			"length": 12
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
-			"total": 30,
-			"length": 12
-		}
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
 	],
-	"30": {
+	"6": [
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"11": [
+		{
+			"type": 0,
+			"enemy": "oLightHerbalist",
+			"total": 30,
+			"length": 1
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"15": {
 		"type": 0,
 		"enemy": "oLightTurtle",
 		"total": 20,
 		"length": 1
-	}
+	},
+	"18": [
+		{
+			"type": 0,
+			"enemy": "oLightHerbalist",
+			"total": 30,
+			"length": 1
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"21": [
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"24": [
+		{
+			"type": 0,
+			"enemy": "oLightHerbalist",
+			"total": 30,
+			"length": 1
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"26": {
+		"type": 1,
+		"enemy": "oLightTurtle",
+		"total": 20,
+		"length": 1
+	},
+	"28": [
+		{
+			"type": 0,
+			"enemy": "oLightHerbalist",
+			"total": 30,
+			"length": 1
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 15,
+			"length": 6
+		},
+	],
+	"30": [
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 15,
+			"length": 6
+		},
+	]
 }

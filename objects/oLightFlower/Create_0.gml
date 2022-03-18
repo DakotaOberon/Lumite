@@ -2,7 +2,7 @@
 event_inherited();
 
 // Health
-max_hp = 4;
+max_hp = 4 + (spawn_per * 8);
 hp = max_hp;
 last_hp = hp;
 
@@ -20,3 +20,5 @@ empower_list = ds_list_create();
 alarm[1] = 60;
 
 death_sprite = sSunFlowerDead;
+
+xp_value = 3;

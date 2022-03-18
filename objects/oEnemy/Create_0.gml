@@ -3,8 +3,11 @@ event_inherited();
 // Can be dealt damage
 damageable = true;
 
+// spawn_per
+spawn_per = global.curr_per / 100;
+
 // Health
-max_hp = 8;
+max_hp = 8 + (spawn_per * 8);
 hp = max_hp;
 last_hp = hp;
 

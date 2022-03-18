@@ -2,7 +2,7 @@
 event_inherited();
 
 // Health
-max_hp = 18;
+max_hp = 6 + (spawn_per * 12);
 hp = max_hp;
 last_hp = hp;
 
@@ -16,3 +16,7 @@ spawn_flower_timer_max = 600; // 10 Seconds
 spawn_flower_timer = 600;
 
 death_sprite = sLightHerbalistDead;
+
+scale = 1.5;
+
+xp_value = 9;

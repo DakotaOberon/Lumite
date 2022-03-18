@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 5,
-  "bbox_bottom": 59,
+  "bbox_left": 21,
+  "bbox_right": 40,
+  "bbox_top": 25,
+  "bbox_bottom": 38,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"392aaa0e-9162-42d1-bbd2-0e9db12313b2","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"392aaa0e-9162-42d1-bbd2-0e9db12313b2","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"LayerId":{"name":"a3dfb870-2c6f-44a6-bd6b-5285d4f90345","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLightHerbalistDead","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","name":"392aaa0e-9162-42d1-bbd2-0e9db12313b2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d7cd24c6-7833-445b-aa10-ae947cdb92bf","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d7cd24c6-7833-445b-aa10-ae947cdb92bf","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"LayerId":{"name":"31f3463c-2da7-4818-8a3d-fd1e9aa89e82","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sLightHerbalistDead","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","name":"d7cd24c6-7833-445b-aa10-ae947cdb92bf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sLightHerbalistDead","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e5bb78d0-fee3-4c31-a9b9-c901f9103003","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"392aaa0e-9162-42d1-bbd2-0e9db12313b2","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5c526714-6ed5-484f-8979-1cef10f6197d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7cd24c6-7833-445b-aa10-ae947cdb92bf","path":"sprites/sLightHerbalistDead/sLightHerbalistDead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a3dfb870-2c6f-44a6-bd6b-5285d4f90345","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"31f3463c-2da7-4818-8a3d-fd1e9aa89e82","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

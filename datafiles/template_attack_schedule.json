@@ -1,146 +1,146 @@
 {
 	"0": {
 		"type": 0,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 20,
 		"length": 1
 	},
 	"1": {
 		"type": 1,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 20,
 		"length": 2
 	},
 	"3": [
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 5,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 5,
 			"length": 3
 		}
 	],
 	"6": {
 		"type": 0,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 5,
 		"length": 4
 	},
 	"10": {
 		"type": 1,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 6,
 		"length": 5
 	},
 	"15": {
 		"type": 1,
-		"enemy": "oNightGobo",
+		"enemy": "oEnemy3",
 		"total": 3,
 		"length": 6
 	},
 	"21": {
 		"type": 1,
-		"enemy": "oNightGobo",
+		"enemy": "oEnemy3",
 		"total": 5,
 		"length": 7
 	},
 	"28": [
 		{
 			"type": 1,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 10,
 			"length": 1
 		},
 		{
 			"type": 2,
-			"enemy": "oNightGobo",
+			"enemy": "oEnemy3",
 			"total": 10,
 			"length": 1
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 10,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 10,
 			"length": 3
 		}
 	],
 	"37": {
 		"type": 0,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 15,
 		"length": 1
 	},
 	"47": {
 		"type": 0,
-		"enemy": "oNightMaggot",
+		"enemy": "oEnemy1",
 		"total": 30,
 		"length": 1
 	},
 	"58": [
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 10,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 10,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 10,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 10,
 			"length": 12
 		}
 	],
 	"70": {
 		"type": 0,
-		"enemy": "oNightMoth",
+		"enemy": "oEnemy2",
 		"total": 13,
 		"length": 13
 	},
 	"83": [
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 3,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 3,
 			"length": 12
 		}
@@ -148,25 +148,25 @@
 	"107": [
 		{
 			"type": 2,
-			"enemy": "oNightGobo",
+			"enemy": "oEnemy3",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightGobo",
+			"enemy": "oEnemy3",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightGobo",
+			"enemy": "oEnemy3",
 			"total": 3,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightGobo",
+			"enemy": "oEnemy3",
 			"total": 3,
 			"length": 12
 		}
@@ -174,25 +174,25 @@
 	"122": [
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 12
 		}
@@ -200,25 +200,25 @@
 	"138": [
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMoth",
+			"enemy": "oEnemy2",
 			"total": 3,
 			"length": 12
 		}
@@ -226,25 +226,25 @@
 	"155": [
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 20,
 			"length": 3
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 20,
 			"length": 3
 		},
 		{
 			"type": 2,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 20,
 			"length": 12
 		},
 		{
 			"type": 3,
-			"enemy": "oNightMaggot",
+			"enemy": "oEnemy1",
 			"total": 20,
 			"length": 12
 		}

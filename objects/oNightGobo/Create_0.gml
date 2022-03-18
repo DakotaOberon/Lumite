@@ -4,7 +4,7 @@ event_inherited();
 in_defense = false;
 
 // Health
-max_hp = 20;
+max_hp = 20 + (spawn_per * 20);
 hp = max_hp;
 last_hp = hp;
 
@@ -21,3 +21,5 @@ scale = 1.5;
 
 image_xscale = scale;
 image_yscale = scale;
+
+xp_value = 11;

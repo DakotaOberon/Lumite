@@ -2,61 +2,251 @@
 	"0": {
 		"type": 0,
 		"enemy": "oLightHerbalist",
-		"total": 5,
+		"total": 20,
 		"length": 1
 	},
 	"1": {
 		"type": 1,
 		"enemy": "oLightHerbalist",
-		"total": 5,
-		"length": 3
+		"total": 20,
+		"length": 2
 	},
-	"2": [
+	"3": [
 		{
-			"type": 0,
+			"type": 2,
 			"enemy": "oLightBall",
-			"total": 2,
+			"total": 5,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 5,
+			"length": 3
+		}
+	],
+	"6": {
+		"type": 0,
+		"enemy": "oLightHerbalist",
+		"total": 5,
+		"length": 4
+	},
+	"10": {
+		"type": 1,
+		"enemy": "oLightHerbalist",
+		"total": 6,
+		"length": 5
+	},
+	"15": {
+		"type": 1,
+		"enemy": "oLightTurtle",
+		"total": 3,
+		"length": 6
+	},
+	"21": {
+		"type": 1,
+		"enemy": "oLightTurtle",
+		"total": 5,
+		"length": 7
+	},
+	"28": [
+		{
+			"type": 1,
+			"enemy": "oLightHerbalist",
+			"total": 10,
 			"length": 1
 		},
 		{
-			"type": 1,
-			"enemy": "oLightBall",
-			"total": 2,
+			"type": 2,
+			"enemy": "oLightTurtle",
+			"total": 10,
 			"length": 1
+		},
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 10,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 10,
+			"length": 3
 		}
 	],
-	"5": [
+	"37": {
+		"type": 0,
+		"enemy": "oLightHerbalist",
+		"total": 15,
+		"length": 1
+	},
+	"47": {
+		"type": 0,
+		"enemy": "oLightHerbalist",
+		"total": 30,
+		"length": 1
+	},
+	"58": [
 		{
 			"type": 2,
 			"enemy": "oLightHerbalist",
-			"total": 5,
+			"total": 10,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 10,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 10,
 			"length": 12
 		},
 		{
 			"type": 3,
 			"enemy": "oLightHerbalist",
-			"total": 5,
+			"total": 10,
 			"length": 12
 		}
 	],
-	"10": [
+	"70": {
+		"type": 0,
+		"enemy": "oLightBall",
+		"total": 13,
+		"length": 13
+	},
+	"83": [
 		{
-			"type": 0,
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 3,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 3,
+			"length": 12
+		}
+	],
+	"107": [
+		{
+			"type": 2,
 			"enemy": "oLightTurtle",
-			"total": 2,
-			"length": 1
+			"total": 3,
+			"length": 3
 		},
 		{
 			"type": 3,
 			"enemy": "oLightTurtle",
-			"total": 1,
-			"length": 1
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightTurtle",
+			"total": 3,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oLightTurtle",
+			"total": 3,
+			"length": 12
 		}
 	],
-	"270": {
-		"type": 1,
-		"enemy": "oLightTurtle",
-		"total": 6,
-		"length": 3
-	}
+	"122": [
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 12
+		}
+	],
+	"138": [
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oLightBall",
+			"total": 3,
+			"length": 12
+		}
+	],
+	"155": [
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 20,
+			"length": 3
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 20,
+			"length": 3
+		},
+		{
+			"type": 2,
+			"enemy": "oLightHerbalist",
+			"total": 20,
+			"length": 12
+		},
+		{
+			"type": 3,
+			"enemy": "oLightHerbalist",
+			"total": 20,
+			"length": 12
+		}
+	]
 }

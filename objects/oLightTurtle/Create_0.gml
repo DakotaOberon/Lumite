@@ -2,7 +2,7 @@
 event_inherited();
 
 // Health
-max_hp = 24;
+max_hp = 24 + (spawn_per * 24);
 hp = max_hp;
 last_hp = hp;
 
@@ -22,3 +22,5 @@ ballista_dir = 0;
 ballista_sub_img = 0;
 
 scale = 2;
+
+xp_value = 13;
