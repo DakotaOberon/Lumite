@@ -42,6 +42,8 @@ pause_spawning = false;
 
 can_end = false;
 
+global.can_spawn_boss = false;
+
 global.game_song = audio_play_sound(music_theme, 100, true);
 
 // Fade in sound

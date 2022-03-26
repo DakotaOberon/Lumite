@@ -1,8 +1,8 @@
 function AttackSchedule() constructor {
 	time_tracker = 0;
 	patterns = { }
-	
-	last_key = "9999";
+
+	last_key = "60";
 
 	running_patterns = [];
 
@@ -30,6 +30,12 @@ function AttackScheduleStep() {
 	AttackScheduleStepHelper(self.running_patterns);
 
 	self.time_tracker += 1;
+
+	if (self.time_tracker >= real(self.last_key)) {
+		if (!global.can_spawn_boss) {
+			global.can_spawn_boss = true;
+		}
+	}
 
 	return self;
 }

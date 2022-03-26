@@ -54,6 +54,7 @@
     {"id":{"name":"sBack","path":"sprites/sBack/sBack.yy",},"order":1,},
     {"id":{"name":"sNightChains","path":"sprites/sNightChains/sNightChains.yy",},"order":5,},
     {"id":{"name":"oEndController","path":"objects/oEndController/oEndController.yy",},"order":7,},
+    {"id":{"name":"rControls","path":"rooms/rControls/rControls.yy",},"order":8,},
     {"id":{"name":"MacroFrames","path":"scripts/MacroFrames/MacroFrames.yy",},"order":0,},
     {"id":{"name":"sLightBallFizzle","path":"sprites/sLightBallFizzle/sLightBallFizzle.yy",},"order":4,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":1,},
@@ -62,6 +63,7 @@
     {"id":{"name":"sNightMothDead","path":"sprites/sNightMothDead/sNightMothDead.yy",},"order":6,},
     {"id":{"name":"sLightTurtleBallista","path":"sprites/sLightTurtleBallista/sLightTurtleBallista.yy",},"order":10,},
     {"id":{"name":"oLevelTracker","path":"objects/oLevelTracker/oLevelTracker.yy",},"order":0,},
+    {"id":{"name":"sControls","path":"sprites/sControls/sControls.yy",},"order":3,},
     {"id":{"name":"sProjectileSword","path":"sprites/sProjectileSword/sProjectileSword.yy",},"order":1,},
     {"id":{"name":"rEnd","path":"rooms/rEnd/rEnd.yy",},"order":7,},
     {"id":{"name":"sNightGoboDefensive","path":"sprites/sNightGoboDefensive/sNightGoboDefensive.yy",},"order":7,},
@@ -146,6 +148,7 @@
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rCharacter","path":"rooms/rCharacter/rCharacter.yy",},},
     {"roomId":{"name":"rEnd","path":"rooms/rEnd/rEnd.yy",},},
+    {"roomId":{"name":"rControls","path":"rooms/rControls/rControls.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
